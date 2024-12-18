@@ -1,0 +1,17 @@
+# Ignore Go build artifacts
+main
+*.exe
+*.out
+
+# Ignore CSV files
+fixlet.csv
+
+# Ignore environment files
+.env
+
+# Ignore Go module files
+/go.sum
+/go.mod
+
+# Ignore Docker-related files
+*.tar
